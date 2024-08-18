@@ -23,9 +23,7 @@ function Hero() {
     <section id="hero" className={styles.Container}>
         <div className={styles.colorModeContainer}>
             <img className={styles.hero} src={heroImg} alt="profile-harshavardhangs" />
-            <button onClick={toggleTheme}>
-                <img className={styles.colorMode} src={themeIcon} alt="Color Mode Icon" />
-            </button>
+            <img className={styles.colorMode} src={themeIcon} alt="Color Mode Icon" onClick={toggleTheme}/>
         </div>
         <div className={styles.info}>
 
