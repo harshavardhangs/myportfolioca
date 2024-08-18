@@ -27,7 +27,7 @@ function Hero() {
         </div>
         <div className={styles.info}>
 
-            <h1>Harsha Vardhan G S</h1>
+            <h1>Harsha Vardhan <br/>G S</h1>
             <h2>Software Engineer</h2>
             <span>
                 <a href="https://www.instagram.com/harshavardhangs4179?igsh=MXc4cTk3bWxoaG9mZQ==" target='_blank'>
