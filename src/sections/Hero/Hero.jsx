@@ -33,7 +33,7 @@ function Hero() {
                 <a href="https://www.instagram.com/harshavardhangs4179?igsh=MXc4cTk3bWxoaG9mZQ==" target='_blank'>
                 <img src={instaIcon} alt="instagram_icon" />
                 </a>
-                <a href="http://github.com" target='_blank'>
+                <a href="https://github.com/harshavardhangs" target='_blank'>
                 <img src={githubIcon} alt="github_icon" />
                 </a>
                 <a href="https://www.linkedin.com/in/harsha-vardhan-g-s-536860218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
