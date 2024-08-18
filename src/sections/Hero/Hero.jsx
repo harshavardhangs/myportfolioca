@@ -10,9 +10,11 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import LinkedInDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/harshavardhangs_resume.pdf';
 import {useTheme} from '../../common/ThemeContext';
+
 function Hero() {
-    const{theme,toggleTheme} = useTheme();
-    const themeIcon = theme === 'light'?sun:moon;
+
+    const{theme,toggleTheme} = {useTheme};
+    const themeIcon = theme === 'light'? sun:moon;
     const instaIcon = theme === 'light'?instaLight:instaDark;
     const  githubIcon= theme === 'light'?githubLight:githubDark;
     const LinkedIcon = theme === 'light'?linkedinLight:LinkedInDark;
@@ -45,4 +47,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default Hero;
