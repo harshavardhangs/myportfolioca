@@ -1,5 +1,5 @@
 import styles from './Herostyles.module.css';
-import heroImg from '../../assets/hero-img.png';
+import heroImg from '../../assets/meicomm.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import instaLight from '../../assets/icons8-instagram (1).svg';
@@ -40,7 +40,7 @@ function Hero() {
                 <img src={LinkedIcon} alt="linkedin_icon" />
                 </a>
             </span>
-            <p className={styles.description}>As a dedicated software engineer, I aim to contribute my technical expertise and innovative thinking to an organization that values growth and excellence. I am eager to leverage my knowledge and skills in software development to solve complex problems, collaborate with a talented team, and drive the organization towards achieving its goals. My passion for technology and continuous learning fuels my commitment to delivering high-quality solutions and staying at the forefront of industry advancements.</p>
+            <p className={styles.description}>As a dedicated software engineer, I aim to contribute my technical expertise and innovative thinking to an organization that values growth and excelle[...]
             <a href={CV}><button className="hover" download>Resume</button></a>
         </div>
     </section>
