@@ -40,7 +40,7 @@ function Hero() {
                 <img src={LinkedIcon} alt="linkedin_icon" />
                 </a>
             </span>
-            <p className={styles.description}>As a dedicated software engineer, I aim to contribute my technical expertise and innovative thinking to an organization that values growth and excelle[...]
+            <p className={styles.description}>As a dedicated software engineer, I aim to contribute my technical expertise and innovative thinking to an organization that values growth and excelle[...]</p>
             <a href={CV}><button className="hover" download>Resume</button></a>
         </div>
     </section>
