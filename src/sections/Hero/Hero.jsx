@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import LinkedInDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/hars_resume.pdf';
+import CV from '../../assets/Harsha_Vardhan_Software_Engineer_Resume.docx';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -40,7 +40,7 @@ function Hero() {
                 <img src={LinkedIcon} alt="linkedin_icon" />
                 </a>
             </span>
-            <p className={styles.description}>As a dedicated software engineer, I aim to contribute my technical expertise and innovative thinking to an organization that values growth and excellence.</p>
+            <p className={styles.description}>As a dedicated software engineer, I aim to contribute my technical expertise and innovative thinking to an organization that values growth and excelle[...]
             <a href={CV}><button className="hover" download>Resume</button></a>
         </div>
     </section>
